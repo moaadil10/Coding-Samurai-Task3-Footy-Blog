@@ -27,4 +27,4 @@ Embark on your journey with Footy Blog:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/footy-blog.git
+   [git clone https://github.com/your-username/footy-blog.git]
