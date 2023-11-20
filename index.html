@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  
+</head>
+
+<body>
+    <!-- header Section -->
+    <header>
+        <a href="#" class="logo">FOOTY &nbsp;<span>BLO</span>G..</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Mohammed Aadil</h1>
+            <h3>This is my <span>Personal Blog Site.</span></h3>
+            <p>Welcome to the intersection of code and football passion,<br> 
+            where I dive into the world of tech wizardry by day and <br> unravel the beautiful game's tales by night. 
+            <br>Join me on this dual journey of pixels and pitches</p>
+            <div class="button">
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="About Me">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>By day, I'm immersed in the intricate dance of code, crafting seamless digital experiences as a full stack developer. 
+                Come game time, I switch gears to translate the poetry of football into articles, weaving narratives that capture the essence of the beautiful game.
+            </p>
+            <a href="#" class="btn">More About</a>
+        </div>
+    </section>
+
+    <!----------Articles Section --------->
+    <section class="articles" id="articles">
+        <div class="main-text">
+            <h2><span>My </span>Articles</h2>
+        </div>
+        <div class="articles-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-mobile-alt'></i>
+                </div>
+                <h3>Manchester United: A Tapestry of Glory and Resilience</h3>
+                <p>In the realm of football, few names resonate with as much history, glory, and undying passion as Manchester United. 
+                    The iconic red jerseys have been a symbol of excellence, resilience, and sheer determination for decades.</p>
+                <a href="utd.html" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-code-alt'></i>
+
+                </div>
+                <h3>Sir Alex Ferguson: The Architect of Glory</h3>
+                <p>In the pantheon of football managers, few names command as much respect, admiration, and sheer awe as Sir Alex Ferguson. 
+                    The legendary Scottish manager, with his fiery passion, tactical brilliance, and indomitable spirit, 
+                    etched an unparalleled legacy during his illustrious career.</p>
+                <a href="ferguson.html" class="btn">Read More</a>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-edit-alt'></i>
+
+                </div>
+                <h3>AI Reshaping the Workforce: Navigating the Future of Jobs</h3>
+                <p>In the era of rapid technological advancement, artificial intelligence (AI) stands at the forefront, poised to revolutionize 
+                    the landscape of employment. As AI continues to evolve, its influence on future jobs is undeniable, ushering in both challenges 
+                    and opportunities for individuals and industries alike.
+
+                </p>
+                <a href="AI.html" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----News Section ----- -->
+    <section class="news" id="news">
+        <div class="main-text">
+            <h2><span>Latest </span>News</h2>
+
+        </div>
+        <div class="news-content">
+            <div class="row">
+                <img src="/images/fabrizio.jpg" alt="FabrizioRomano football News">
+                <div class="layer">
+                    <h5>Transfer News From Fabrizio Romano</h5>
+                    <p>Check Out the updates on Transfers and other top football news Here we go! ©.</p>
+                    <a href="https://twitter.com/FabrizioRomano"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="/images/tech.jpg" alt="Tech News">
+                <div class="layer">
+                    <h5>Latest Technology News</h5>
+                    <p>Read the Latest News on Internet Technology to Understand Recent Issues and Developments.</p>
+                    <a href="https://www.gadgets360.com/news"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Contact Section ------------ -->
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>If you have any suggestion in mind</h4>
+            <p>Feel free to reach out for suggestions or any queries—I'm just a message away!.</p>
+            <div class="list">
+                
+                <li><a href="#">mohammedaadilashik@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/mohammed-aadil10/">Follow me On linkedin</a></li>
+
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/mohammed-aadil10/"><i class='bx bxl-linkedin-square'></i></a>
+                
+            </div>
+        </div>
+        <div class="contact-form">
+            <form onsubmit="submitForm(event)">
+                <input type="text" placeholder="Your Name" id="name" required>
+                <input type="email" placeholder="Your Email" id="email" required>
+                <input type="number" placeholder="Your Mobile Number" id="mobile" required>
+                <textarea name="" cols="35" rows="10" placeholder="How Can I Help You" id="message" required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- --------End Section ------------ -->
+    <section class="end" id="end">
+        <div class="last-text">
+            <p>Design by Mohammed Aadil</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bxs-up-arrow-square'></i></a>
+        </div>
+    </section>
+    <!-- Importing JS FIle -->
+    <script src="main.js"></script>
+</body>
+
+</html>
