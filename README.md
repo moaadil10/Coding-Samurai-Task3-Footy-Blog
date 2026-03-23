@@ -28,3 +28,8 @@ Embark on your journey with Footy Blog:
 1. Clone the repository:
    ```bash
    git clone https://github.com/moaadil10/Coding-Samurai-Task3-Footy-Blog.git
+
+
+<img width="1903" height="928" alt="image" src="https://github.com/user-attachments/assets/d8e1119a-2b99-491b-be82-897fa4937fda" />
+<img width="1894" height="953" alt="image" src="https://github.com/user-attachments/assets/69c75ea9-b407-413b-bf8b-b6e9f8fbefa9" />
+
